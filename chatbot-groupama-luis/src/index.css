@@ -1,0 +1,251 @@
+* {
+  margin: 0px;
+  padding: 0px;
+
+  font: 14px "Century Gothic", Futura, sans-serif;
+}
+
+html {
+  display: flex;
+  flex-direction: row;
+
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+
+  width: 100%;
+  height: 100%;
+}
+
+.title {
+  margin-bottom: 1em;
+  font-weight: bold;
+  color: black;
+}
+
+#root {
+  display: flex;
+  flex-direction: row;
+
+  width: 100%;
+  height: 100%;
+}
+
+.window {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  height: 100%;
+}
+
+.window-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  width: 100%;
+  height: 5%;
+}
+
+.window-header-button {
+  align-items: center;
+
+  width: 50%;
+  height: 100%;
+
+  margin: 1px;
+
+  background-color: #DCD9D7;
+  color: black;
+  font-weight: bold;
+
+  border: 1px solid #99938A;
+  border-radius: 10px;
+  outline: none;
+}
+
+.window-header-button:hover {
+  background-color: #99938A;
+  color: white;
+
+  border: 1px solid #DCD9D7;
+}
+
+.window-body {
+  display: flex;
+  flex-direction: row;
+
+  width: 100%;
+  height: 95%;
+}
+
+.action {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  align-items: center;
+
+  display: none;
+}
+
+.action-element {
+  background-color: #F6F6F6;
+
+  border: 1px solid #99938A;
+  border-radius: 20px;
+  margin: 5px;
+}
+
+.intents {
+  width: 100%;
+  height: 50%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  align-items: center;
+}
+
+.intent-creation {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  align-items: center;
+}
+
+.logs-array {
+  width: 100%;
+  height: 50%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  align-items: center;
+}
+
+.log {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  align-items: center;
+
+  margin: 3px;
+}
+
+.log-label {
+  width: 20%;
+}
+
+.log-select {
+  width: 20%;
+}
+
+.log-button {
+  width: 10%;
+}
+
+.dashboard {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  align-items: center;
+
+  border: 1px solid #99938A;
+  border-radius: 20px;
+  margin: 5px;
+}
+
+#summary {
+  width: 80%;
+  height: 20%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+#status-content {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.summary-row {
+  width: 100%;
+  height: 50%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  margin: 0.25em;
+}
+
+.summary-cell {
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  align-items: center;
+  text-align: center;
+
+  background-color: #DCD9D7;
+  color: black;
+  font-weight: bold;
+
+  border: 1px solid #99938A;
+  border-radius: 10px;
+
+  margin: 0.25em;
+}
+
+.summary-cell-row-1 {
+  width: 100%;
+}
+
+.summary-cell-row-2 {
+  width: 25%;
+}
+
+#pie {
+  width: 80%;
+  height: 80%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  align-items: center;
+}
+
+#myChart {
+  max-width: 90%;
+  max-height: 90%;
+
+  align-items: center;
+}
